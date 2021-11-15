@@ -1,7 +1,5 @@
 # Assignement4
-Run Tsppro
  public void TSPPro() throws InterruptedException {
-        flag2 = true;
         TSPPro tspPro = new TSPPro("thread");
         tspPro.setCityList(cities);
         tspPro.run();
